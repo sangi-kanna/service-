@@ -1,0 +1,283 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+.overall{
+    background-color: pink;
+    min-height:500px;
+    position: relative;
+}
+.nav{
+    background-color: black;
+    height:60px;
+    width:90%;
+    border-radius: 15px;
+    margin-left:70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+}
+.subnav{
+    background-color:black;
+    height:60px;
+    width:50%;
+    margin-left: 400px;
+    border-radius: 15px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+.nav:hover{
+    box-shadow: 4px 4px 4px 4px white;   
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+.logo{
+    height:50px;
+    width:50px;
+
+}
+.image1{
+    width:100%;
+    
+}
+.name{
+    color: white;
+    margin-top:-400px;
+    margin-left:100px;
+    position:absolute;
+}
+.name1{
+    color: white;
+    margin-top:-300px;
+    margin-left:900px;
+    position:absolute;
+}
+.image2{
+    width:100%;
+
+}
+.aname{
+    color:white;
+    margin-top:-700px;
+    /* margin-left:30px; */
+    position:absolute;
+}
+.about{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.box1{
+    background-color:white;
+    height:300px;
+    width:300px;
+    border-radius:15px;
+    position:absolute;
+     margin-left:-1000px;
+     text-align: center; 
+     display :flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    
+}
+.box2{
+    background-color:white;
+    height:300px;
+    width:300px;
+    border-radius:15px;
+    position:absolute;
+    margin-left:960px;
+    text-align: center;
+    text-align: center; 
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    background-color:white;
+    height:300px;
+    width:300px;
+    border-radius:15px;
+    position:absolute;
+    margin-left:-350px;
+    text-align: center;
+    text-align: center; 
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box4{
+    background-color:white;
+    height:300px;
+    width:300px;
+    border-radius:15px;
+    position:absolute;
+    margin-left:300px;
+    text-align: center;
+    text-align: center; 
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.star{
+    height:150px;
+    width:250px;
+}
+.box:hover{
+    background-color:gold;
+}
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.image3{
+    width:100%;
+
+
+}
+.aname1{
+    color:white;
+    margin-top:-700px;
+    margin-left:5%;
+    position:absolute;
+}
+.services{
+    background-color:darkblue;
+    height:400px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    position: absolute;
+    overflow: hidden;
+
+
+}
+.card{
+    background-color: white;
+    height:350px;
+    width:300px;
+    border-radius: 25px;
+
+}
+.pics{
+    height:300px;
+    width:300px;
+    border-radius:25px 25px 0px 0px;
+
+}
+.card:hover{
+    background-color:darkorange;
+}
+.contacts{
+    position: relative;
+}
+.image4{
+    width:100%;
+}
+.aname2{
+    color:white;
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 40%;
+
+}
+.cbox{
+    /* background-color: white; */
+    height:500px;
+    width:100%;
+    position: absolute;
+    margin-top: -600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.cbox1{
+    background-color: darksalmon;
+    height:400px;
+    width:500px;
+    border-radius: 15px;
+}
+.cbox1:hover{
+    background-color: lightseagreen;
+}
+.cbox2{
+    background-color: darksalmon;
+    height:400px;
+    width:500px;
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+}
+.cbox2:hover{
+    background-color: lightseagreen;
+}
+.cbox11{
+    /* background-color: darksalmon; */
+    height:400px;
+    width:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    margin-top: -60px;
+    border-radius: 15px;
+}
+
+.icons{
+    /* background-color: aqua; */
+    height:200px;
+    width:50px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    
+}
+.lines{
+    /* background-color:blue; */
+    height:200px;
+    width:250px;
+    line-height: 60px;
+}
+.i2{
+    font-size: 30px;
+    margin-top: 15px;
+}
+.i1{
+    font-size: 30px;
+    
+}
+.place{
+    height: 40px;
+    width:200px;
+}  
+.sign:hover{
+    color:blue;
+} 
+.icons2{
+    display: flex;
+    gap:30px;
+} 
